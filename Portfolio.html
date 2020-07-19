@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<style>
+		body{
+			background: -webkit-linear-gradient(top, #d2e4e8 0%, #e8d2e4 100%) !important;
+		}
+		.current{
+			padding-bottom: 15%;
+			background: -webkit-linear-gradient(top, #d2e4e8 0%, #e8d2e4 100%);
+		}
+		#present{
+			font-family: Times New Roman !important;
+			font-style: italic;
+		}
+		h3{
+			font-family: Times New Roman !important;
+			font-style: italic;
+		}
+		img{
+			width: 5%;
+			float: left;
+		}
+		p:hover {
+            color: indigo;
+		}
+		.head{
+			font-family: Times New Roman;
+			text-align: center;
+		}
+		#center{
+			text-align:center;
+		}
+		@media screen and (min-width:250px){
+          .image1{
+               margin-left: 5%;
+               width: 10%;
+               height: 10%;
+               border-radius: 20px 20px 20px 20px;
+          }
+          #email{
+          	display: inline-block;
+          	margin-top: 5%;
+          	margin-left: 15%;
+          	font-family: Times New Roman;
+          	font-style: italic;
+          }
+          .image2{
+          	display: inline-block;
+          	margin-top:1%;
+        	float:right;
+        	margin-right: 5%;
+        	width: 10%;
+        	height: 10%;
+          }
+        }
+        @media screen and (min-width:900px){
+        	.image1{
+        		margin-top: 3%;
+               margin-left: 15%;
+               width: 7%;
+               height: 7%;
+               border-radius: 20px 20px 20px 20px;
+          }
+          #email{
+          	font-size:25px;
+          	display: inline-block;
+          	margin-top: 5%;
+          	margin-left: 18%;
+          	font-family: Times New Roman;
+          	font-style: italic;
+          }
+          .image2{
+          	display: inline-block;
+          	margin-top:3%;
+        	float:right;
+        	margin-right: 15%;
+        	width: 7%;
+        	height: 7%;
+        	border-radius: 20px 20px 20px 20px;
+          }
+        }
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid"> 
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Portfolio</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="file:///C:/Users/kelaw/OneDrive/Desktop/HTML/Academics.html">Academics</a></li>
+							<li><a href="file:///C:/Users/kelaw/OneDrive/Desktop/HTML/Certifications.html">Certifications</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class="current">
+    	<h3 id="present">Hey there !</h3>
+    	<script>
+    	   var x =prompt("What is your name ?");
+    	   document.getElementById("present").innerHTML = "Hello " + x + " !";
+        </script>
+        <div>
+    	   <img src="https://media-exp1.licdn.com/dms/image/C5603AQGRJrV3z5S2lg/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=wpwXDACELdeYGbnqzlIzozIJzNvAwEKUBTToN5WkkbI" class="img-responsive img-circle"><h3>   I am Darshan Kelawala.</h3>
+    	</div>
+    	<p>  I am a Front-end Web Developer currently pursuing Mechanical Engineering from Vellore Institute of Technology, Vellore. Its been a month now since I started learning web designing. I am keen to learn as many things as possible and indulge myself into more and more projects.</p>
+        </br>
+        <p>I have made many websites and responsive forms till now as a part of my project. In this one month I have gained much knowledge about HTML5, CSS3, JavaScript and Bootstrap. I will continue to expand my knowledge in web development in the upcoming years.</p>
+    <details>
+    	<summary>Additional Information</summary>
+    	<p>This portfolio website has been created on the basis of whatever I have learnt in this one month. The changes will be made in future after acquiring more knowledge related to web designing. You are always welcomed for any suggestions !!</p>
+    </details>
+    </br>
+    <h3 class="head">Contact</h3>
+     <p id="center">Any suggestions or want to do project with me ? Feel free to contact me by any of these means !</p>
+     <a href="https://www.instagram.com/"><img src="https://www.pngitem.com/pimgs/m/461-4618525_ig-small-instagram-logo-2019-hd-png-download.png" alt="instagram" class="image1"></a>
+     <p id="email">kelawaladarshan26.dk@gmail.com</p>
+     <a href="https://www.linkedin.com/in/darshan-kelawala-159131198/"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGyOWvr4W0Pow/company-logo_200_200/0?e=2159024400&v=beta&t=itrwplyUUwPAVxqxN8THySQds9p401UaOtZIurSBVnA" alt="linkedin" class="image2"></a>
+    </div>
+</body>
+</html>
+
